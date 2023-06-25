@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MvnTest" time="295.477" tests="31" errors="20" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_331\jre\bin"/>
+    <property name="java.vm.version" value="25.331-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="MvnTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\MSI\IdeaProjects\iStoria-automation-test\iStoria_automation"/>
+    <property name="java.runtime.version" value="1.8.0_331-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_331\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MSI\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.2\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_331\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;F:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\MSI\AppData\Local\Android\Sdk;C:\Program Files (x86)\Java\jre1.8.0_333;G:\istoria-mobile\OpenJDK8U-jdk_x64_windows_hotspot_8u352b08\bin;C:\Program Files\Java\jdk1.8.0_331\bin;C:\Users\MSI\AppData\Local\Microsoft\WindowsApps;C:\Users\MSI\AppData\Roaming\Composer\vendor\bin;G:\flutter\bin;C:\Users\MSI\platform-tools_r31.0.3-windows\platform-tools;C:\Users\MSI\Desktop\istoria-mobile;C:\Program Files\Java\jdk1.8.0_331\bin;C:\ProgramData\MSI\GitHubDesktop\bin;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\MSI"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="MSI"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 8.2\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_331\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=MvnTest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_331"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_331\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_331\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_331\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans 8.2\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="start" classname="driver.ClientDriver" time="0.001"/>
+  <testcase name="test_Language_welcome" classname="signin.SelectLanguage" time="3.389"/>
+  <testcase name="test1_SingUp" classname="signin.SignUp" time="0.291"/>
+  <testcase name="test2_Complete_Register" classname="signin.SignUp" time="15.392"/>
+  <testcase name="test3_Create_account" classname="signin.SignUp" time="12.278"/>
+  <testcase name="test1_Welcome" classname="onboarding.CompleteRegistration" time="0.263"/>
+  <testcase name="test2_Learn_English_reason" classname="onboarding.CompleteRegistration" time="1.498"/>
+  <testcase name="test3_checkTestResult" classname="onboarding.CompleteRegistration" time="1.44"/>
+  <testcase name="test1_Placement_Test" classname="onboarding.PlacementTest" time="0.254"/>
+  <testcase name="test4_checkTestResult" classname="onboarding.PlacementTest" time="11.34">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: //android.view.View[@content-desc=&quot;Restore Purchases&quot;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.view.View[@content-desc="Restore Purchases"] (tried for 10 second(s) with 500 milliseconds interval)
+	at onboarding.PlacementTest.test4_checkTestResult(PlacementTest.java:92)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="Restore Purchases"]}
+	at onboarding.PlacementTest.test4_checkTestResult(PlacementTest.java:92)
+</error>
+    <system-out><![CDATA[onboarding.PlacementTest.test4_checkTestResult Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:08:34 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@content-desc="Restore Purchases"]}]
+May 01, 2023 10:08:45 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@content-desc="Restore Purchases"]}]
+]]></system-err>
+  </testcase>
+  <testcase name="test1_subsribe" classname="onboarding.Subscription" time="10.126">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.ScrollView/android.view.View[1] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.ScrollView/android.view.View[1] (tried for 10 second(s) with 500 milliseconds interval)
+	at onboarding.Subscription.test1_subsribe(Subscription.java:54)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.ScrollView/android.view.View[1]}
+	at onboarding.Subscription.test1_subsribe(Subscription.java:54)
+</error>
+    <system-out><![CDATA[SignUpLayout Delay 10 seconds applied 
+onboarding.Subscription.test1_subsribe Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:08:46 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.ScrollView/android.view.View[1]}]
+May 01, 2023 10:08:56 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.ScrollView/android.view.View[1]}]
+]]></system-err>
+  </testcase>
+  <testcase name="test1_startReadChapter" classname="readChapter.StartLearning" time="10.253">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View/android.view.View (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View/android.view.View (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.StartLearning.test1_startReadChapter(StartLearning.java:67)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View/android.view.View}
+	at readChapter.StartLearning.test1_startReadChapter(StartLearning.java:67)
+</error>
+    <system-out><![CDATA[SignUpLayout Delay 10 seconds applied 
+readChapter.StartLearning.test1_startReadChapter Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:08:57 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View/android.view.View}]
+May 01, 2023 10:09:07 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View/android.view.View}]
+]]></system-err>
+  </testcase>
+  <testcase name="test2_startLearning" classname="readChapter.StartLearning" time="24.433"/>
+  <testcase name="test4_readChapter" classname="readChapter.StartLearning" time="10.712">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.ImageView[@content-desc=&quot;Read Chapter&quot;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.ImageView[@content-desc="Read Chapter"] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.StartLearning.test4_readChapter(StartLearning.java:118)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.ImageView[@content-desc="Read Chapter"]}
+	at readChapter.StartLearning.test4_readChapter(StartLearning.java:118)
+</error>
+    <system-out><![CDATA[readChapter.StartLearning.test4_readChapter Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:09:32 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Read Chapter"]}]
+May 01, 2023 10:09:37 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Read Chapter"]}]
+May 01, 2023 10:09:37 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Read Chapter"]}]
+May 01, 2023 10:09:42 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Read Chapter"]}]
+]]></system-err>
+  </testcase>
+  <testcase name="test1_startReading" classname="readChapter.ReadChapter" time="11.116">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.ReadChapter.test1_startReading(ReadChapter.java:78)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView}
+	at readChapter.ReadChapter.test1_startReading(ReadChapter.java:78)
+</error>
+    <system-out><![CDATA[SignUpLayout Delay 10 seconds applied 
+readChapter.ReadChapter.test1_startReading Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:09:44 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView}]
+May 01, 2023 10:09:49 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView}]
+May 01, 2023 10:09:50 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView}]
+May 01, 2023 10:09:55 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView}]
+]]></system-err>
+  </testcase>
+  <testcase name="test2_listen_chapter" classname="readChapter.ReadChapter" time="11.098">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View/android.view.View/android.view.View/android.view.View[3] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View/android.view.View/android.view.View/android.view.View[3] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.ReadChapter.test2_listen_chapter(ReadChapter.java:120)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View/android.view.View/android.view.View/android.view.View[3]}
+	at readChapter.ReadChapter.test2_listen_chapter(ReadChapter.java:120)
+</error>
+    <system-out><![CDATA[readChapter.ReadChapter.test2_listen_chapter Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:09:55 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View/android.view.View/android.view.View/android.view.View[3]}]
+May 01, 2023 10:10:00 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View/android.view.View/android.view.View/android.view.View[3]}]
+May 01, 2023 10:10:01 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View/android.view.View/android.view.View/android.view.View[3]}]
+May 01, 2023 10:10:06 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View/android.view.View/android.view.View/android.view.View[3]}]
+]]></system-err>
+  </testcase>
+  <testcase name="test5_checkTestResult" classname="readChapter.ReadChapter" time="10.711">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.ImageView[@content-desc=&quot;Back to chapter&quot;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.ImageView[@content-desc="Back to chapter"] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.ReadChapter.test5_checkTestResult(ReadChapter.java:182)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.ImageView[@content-desc="Back to chapter"]}
+	at readChapter.ReadChapter.test5_checkTestResult(ReadChapter.java:182)
+</error>
+    <system-out><![CDATA[readChapter.ReadChapter.test5_checkTestResult Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:10:06 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Back to chapter"]}]
+May 01, 2023 10:10:11 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Back to chapter"]}]
+May 01, 2023 10:10:12 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Back to chapter"]}]
+May 01, 2023 10:10:17 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Back to chapter"]}]
+]]></system-err>
+  </testcase>
+  <testcase name="test1_reviewChapter" classname="readChapter.ReviewChapter" time="10.645">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[9]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[9]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.ReviewChapter.test1_reviewChapter(ReviewChapter.java:63)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[9]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View}
+	at readChapter.ReviewChapter.test1_reviewChapter(ReviewChapter.java:63)
+</error>
+    <system-out><![CDATA[SignUpLayout Delay 10 seconds applied 
+readChapter.ReviewChapter.test1_reviewChapter Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:10:18 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[9]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View}]
+May 01, 2023 10:10:23 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[9]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View}]
+May 01, 2023 10:10:24 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[9]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View}]
+May 01, 2023 10:10:29 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[9]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View}]
+]]></system-err>
+  </testcase>
+  <testcase name="test2_finishReview" classname="readChapter.ReviewChapter" time="10.698">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.Button[@content-desc=&quot;Start your test&quot;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.Button[@content-desc="Start your test"] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.ReviewChapter.test2_finishReview(ReviewChapter.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc="Start your test"]}
+	at readChapter.ReviewChapter.test2_finishReview(ReviewChapter.java:77)
+</error>
+    <system-out><![CDATA[readChapter.ReviewChapter.test2_finishReview Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:10:29 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="Start your test"]}]
+May 01, 2023 10:10:34 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="Start your test"]}]
+May 01, 2023 10:10:34 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="Start your test"]}]
+May 01, 2023 10:10:40 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="Start your test"]}]
+]]></system-err>
+  </testcase>
+  <testcase name="test1_comprehQuestion" classname="readChapter.CompQuestion" time="11.745">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.Button[@content-desc=&quot;Check answer&quot;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.Button[@content-desc="Check answer"] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.CompQuestion.test1_comprehQuestion(CompQuestion.java:67)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc="Check answer"]}
+	at readChapter.CompQuestion.test1_comprehQuestion(CompQuestion.java:67)
+</error>
+    <system-out><![CDATA[SignUpLayout Delay 10 seconds applied 
+readChapter.CompQuestion.test1_comprehQuestion Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:10:41 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@index='0']}]
+May 01, 2023 10:10:41 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@index='0']}]
+May 01, 2023 10:10:41 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@index='0']}]
+May 01, 2023 10:10:41 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@index='0']}]
+May 01, 2023 10:10:41 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: clickElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, clickElement {id=00000000-0000-000f-0000-000000000004}]
+May 01, 2023 10:10:41 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, clickElement {id=00000000-0000-000f-0000-000000000004}]
+May 01, 2023 10:10:41 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="Check answer"]}]
+May 01, 2023 10:10:47 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="Check answer"]}]
+May 01, 2023 10:10:47 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="Check answer"]}]
+May 01, 2023 10:10:53 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="Check answer"]}]
+]]></system-err>
+  </testcase>
+  <testcase name="test2_reviewCompreh" classname="readChapter.CompQuestion" time="10.659">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.ImageView[@content-desc=&quot;Review Q&amp;A&quot;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.ImageView[@content-desc="Review Q&A"] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.CompQuestion.test2_reviewCompreh(CompQuestion.java:79)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.ImageView[@content-desc="Review Q&A"]}
+	at readChapter.CompQuestion.test2_reviewCompreh(CompQuestion.java:79)
+]]></error>
+    <system-out><![CDATA[readChapter.CompQuestion.test2_reviewCompreh Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:10:53 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Review Q&A"]}]
+May 01, 2023 10:10:58 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Review Q&A"]}]
+May 01, 2023 10:10:58 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Review Q&A"]}]
+May 01, 2023 10:11:03 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Review Q&A"]}]
+]]></system-err>
+  </testcase>
+  <testcase name="test3_checkTestResult" classname="readChapter.CompQuestion" time="10.764">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: //android.view.View[@content-desc=&quot; Question 1 &quot;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.view.View[@content-desc=" Question 1 "] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.CompQuestion.test3_checkTestResult(CompQuestion.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc=" Question 1 "]}
+	at readChapter.CompQuestion.test3_checkTestResult(CompQuestion.java:91)
+</error>
+    <system-out><![CDATA[readChapter.CompQuestion.test3_checkTestResult Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:11:03 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@content-desc=" Question 1 "]}]
+May 01, 2023 10:11:09 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@content-desc=" Question 1 "]}]
+May 01, 2023 10:11:09 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@content-desc=" Question 1 "]}]
+May 01, 2023 10:11:14 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@content-desc=" Question 1 "]}]
+]]></system-err>
+  </testcase>
+  <testcase name="test1_testChapter" classname="readChapter.TestChapter" time="10.736">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.Button[@content-desc=&quot;I don’t know&quot;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.Button[@content-desc="I don’t know"] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.TestChapter.test1_testChapter(TestChapter.java:64)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc="I don’t know"]}
+	at readChapter.TestChapter.test1_testChapter(TestChapter.java:64)
+</error>
+    <system-out><![CDATA[SignUpLayout Delay 10 seconds applied 
+readChapter.TestChapter.test1_testChapter Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:11:16 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="I don’t know"]}]
+May 01, 2023 10:11:21 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="I don’t know"]}]
+May 01, 2023 10:11:21 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="I don’t know"]}]
+May 01, 2023 10:11:26 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="I don’t know"]}]
+]]></system-err>
+  </testcase>
+  <testcase name="test2_checkTestResult" classname="readChapter.TestChapter" time="10.659">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: //android.view.View[@content-desc=&quot;Chapter1 Completed&quot;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.view.View[@content-desc="Chapter1 Completed"] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.TestChapter.test2_checkTestResult(TestChapter.java:75)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="Chapter1 Completed"]}
+	at readChapter.TestChapter.test2_checkTestResult(TestChapter.java:75)
+</error>
+    <system-out><![CDATA[readChapter.TestChapter.test2_checkTestResult Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:11:26 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@content-desc="Chapter1 Completed"]}]
+May 01, 2023 10:11:32 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@content-desc="Chapter1 Completed"]}]
+May 01, 2023 10:11:32 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@content-desc="Chapter1 Completed"]}]
+May 01, 2023 10:11:37 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@content-desc="Chapter1 Completed"]}]
+]]></system-err>
+  </testcase>
+  <testcase name="test1_closeTip" classname="signin.flashCard" time="10.712">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.ImageView[@index=&apos;1&apos;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.ImageView[@index='1'] (tried for 10 second(s) with 500 milliseconds interval)
+	at signin.flashCard.test1_closeTip(flashCard.java:53)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.ImageView[@index='1']}
+	at signin.flashCard.test1_closeTip(flashCard.java:53)
+</error>
+    <system-out><![CDATA[SignUpLayout Delay 1 second applied 
+signin.flashCard.test1_closeTip Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:11:39 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@index='1']}]
+May 01, 2023 10:11:44 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@index='1']}]
+May 01, 2023 10:11:45 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@index='1']}]
+May 01, 2023 10:11:50 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@index='1']}]
+]]></system-err>
+  </testcase>
+  <testcase name="test2_practice" classname="signin.flashCard" time="10.788">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.Button[@content-desc=&quot;Practice&quot;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.Button[@content-desc="Practice"] (tried for 10 second(s) with 500 milliseconds interval)
+	at signin.flashCard.test2_practice(flashCard.java:66)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc="Practice"]}
+	at signin.flashCard.test2_practice(flashCard.java:66)
+</error>
+    <system-out><![CDATA[signin.flashCard.test2_practice Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:11:50 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="Practice"]}]
+May 01, 2023 10:11:55 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="Practice"]}]
+May 01, 2023 10:11:55 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="Practice"]}]
+May 01, 2023 10:12:01 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="Practice"]}]
+]]></system-err>
+  </testcase>
+  <testcase name="test3_FlashCard" classname="signin.flashCard" time="10.734">
+    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.ImageView[@content-desc=&quot;Flash Cards&quot;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.ImageView[@content-desc="Flash Cards"] (tried for 10 second(s) with 500 milliseconds interval)
+	at signin.flashCard.test3_FlashCard(flashCard.java:74)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.ImageView[@content-desc="Flash Cards"]}
+	at signin.flashCard.test3_FlashCard(flashCard.java:74)
+</error>
+    <system-out><![CDATA[signin.flashCard.test3_FlashCard Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:12:01 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Flash Cards"]}]
+May 01, 2023 10:12:06 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Flash Cards"]}]
+May 01, 2023 10:12:06 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Flash Cards"]}]
+May 01, 2023 10:12:11 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.ImageView[@content-desc="Flash Cards"]}]
+]]></system-err>
+  </testcase>
+  <testcase name="test4_startFlashCard" classname="signin.flashCard" time="1.216">
+    <error message="An unknown server-side error occurred while processing the command. Original error: &apos;POST /element&apos; cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-3N0NFMK&apos;, ip: &apos;192.168.23.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_331&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e&#10;*** Element info: {Using=xpath, value=(//android.widget.Button[@content-desc=&quot;Show answer&quot;])[1]}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=(//android.widget.Button[@content-desc="Show answer"])[1]}
+	at signin.flashCard.test4_startFlashCard(flashCard.java:82)
+</error>
+    <system-out><![CDATA[signin.flashCard.test4_startFlashCard Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:12:11 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=(//android.widget.Button[@content-desc="Show answer"])[1]}]
+May 01, 2023 10:12:13 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=(//android.widget.Button[@content-desc="Show answer"])[1]}]
+]]></system-err>
+  </testcase>
+  <testcase name="test5_startFlashCard" classname="signin.flashCard" time="0.022">
+    <error message="An unknown server-side error occurred while processing the command. Original error: &apos;POST /element&apos; cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-3N0NFMK&apos;, ip: &apos;192.168.23.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_331&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e&#10;*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc=&quot;Move all to know&quot;]}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc="Move all to know"]}
+	at signin.flashCard.test5_startFlashCard(flashCard.java:110)
+</error>
+    <system-out><![CDATA[signin.flashCard.test5_startFlashCard Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:12:13 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="Move all to know"]}]
+May 01, 2023 10:12:13 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.widget.Button[@content-desc="Move all to know"]}]
+]]></system-err>
+  </testcase>
+  <testcase name="test6_result_flashCard" classname="signin.flashCard" time="0.016">
+    <error message="An unknown server-side error occurred while processing the command. Original error: &apos;POST /element&apos; cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-3N0NFMK&apos;, ip: &apos;192.168.23.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_331&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e&#10;*** Element info: {Using=xpath, value=//android.view.View[@index=&apos;1&apos;]}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.view.View[@index='1']}
+	at signin.flashCard.test6_result_flashCard(flashCard.java:119)
+</error>
+    <system-out><![CDATA[signin.flashCard.test6_result_flashCard Started -> **Failed** -> Finished
+]]></system-out>
+    <system-err><![CDATA[May 01, 2023 10:12:13 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@index='1']}]
+May 01, 2023 10:12:13 AM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [452eb029-0efe-4a2b-93f4-fcc47d8c383e, findElement {using=xpath, value=//android.view.View[@index='1']}]
+]]></system-err>
+  </testcase>
+  <testcase name="quit" classname="Quit" time="2.669"/>
+</testsuite>

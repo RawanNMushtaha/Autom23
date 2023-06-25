@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: onboarding.PlacementTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.125 sec <<< FAILURE! - in onboarding.PlacementTest
+test1_Placement_Test(onboarding.PlacementTest)  Time elapsed: 0.014 sec  <<< ERROR!
+java.lang.NullPointerException
+	at onboarding.PlacementTest.test1_Placement_Test(PlacementTest.java:52)
+
+test2_Answer_Questions(onboarding.PlacementTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at onboarding.PlacementTest.test2_Answer_Questions(PlacementTest.java:65)
+
+test3_Show_Result(onboarding.PlacementTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at onboarding.PlacementTest.test3_Show_Result(PlacementTest.java:80)
+

@@ -1,0 +1,275 @@
+-------------------------------------------------------------------------------
+Test set: MvnTest
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 0, Errors: 20, Skipped: 0, Time elapsed: 295.477 sec <<< FAILURE! - in MvnTest
+test4_checkTestResult(onboarding.PlacementTest)  Time elapsed: 11.34 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.view.View[@content-desc="Restore Purchases"] (tried for 10 second(s) with 500 milliseconds interval)
+	at onboarding.PlacementTest.test4_checkTestResult(PlacementTest.java:92)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="Restore Purchases"]}
+	at onboarding.PlacementTest.test4_checkTestResult(PlacementTest.java:92)
+
+test1_subsribe(onboarding.Subscription)  Time elapsed: 10.126 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.ScrollView/android.view.View[1] (tried for 10 second(s) with 500 milliseconds interval)
+	at onboarding.Subscription.test1_subsribe(Subscription.java:54)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.ScrollView/android.view.View[1]}
+	at onboarding.Subscription.test1_subsribe(Subscription.java:54)
+
+test1_startReadChapter(readChapter.StartLearning)  Time elapsed: 10.253 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View/android.view.View (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.StartLearning.test1_startReadChapter(StartLearning.java:67)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View/android.view.View}
+	at readChapter.StartLearning.test1_startReadChapter(StartLearning.java:67)
+
+test4_readChapter(readChapter.StartLearning)  Time elapsed: 10.712 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.ImageView[@content-desc="Read Chapter"] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.StartLearning.test4_readChapter(StartLearning.java:118)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.ImageView[@content-desc="Read Chapter"]}
+	at readChapter.StartLearning.test4_readChapter(StartLearning.java:118)
+
+test1_startReading(readChapter.ReadChapter)  Time elapsed: 11.116 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.ReadChapter.test1_startReading(ReadChapter.java:78)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView}
+	at readChapter.ReadChapter.test1_startReading(ReadChapter.java:78)
+
+test2_listen_chapter(readChapter.ReadChapter)  Time elapsed: 11.098 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View/android.view.View/android.view.View/android.view.View[3] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.ReadChapter.test2_listen_chapter(ReadChapter.java:120)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View/android.view.View/android.view.View/android.view.View[3]}
+	at readChapter.ReadChapter.test2_listen_chapter(ReadChapter.java:120)
+
+test5_checkTestResult(readChapter.ReadChapter)  Time elapsed: 10.711 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.ImageView[@content-desc="Back to chapter"] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.ReadChapter.test5_checkTestResult(ReadChapter.java:182)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.ImageView[@content-desc="Back to chapter"]}
+	at readChapter.ReadChapter.test5_checkTestResult(ReadChapter.java:182)
+
+test1_reviewChapter(readChapter.ReviewChapter)  Time elapsed: 10.645 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[9]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.ReviewChapter.test1_reviewChapter(ReviewChapter.java:63)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[9]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View}
+	at readChapter.ReviewChapter.test1_reviewChapter(ReviewChapter.java:63)
+
+test2_finishReview(readChapter.ReviewChapter)  Time elapsed: 10.698 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.Button[@content-desc="Start your test"] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.ReviewChapter.test2_finishReview(ReviewChapter.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc="Start your test"]}
+	at readChapter.ReviewChapter.test2_finishReview(ReviewChapter.java:77)
+
+test1_comprehQuestion(readChapter.CompQuestion)  Time elapsed: 11.745 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.Button[@content-desc="Check answer"] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.CompQuestion.test1_comprehQuestion(CompQuestion.java:67)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc="Check answer"]}
+	at readChapter.CompQuestion.test1_comprehQuestion(CompQuestion.java:67)
+
+test2_reviewCompreh(readChapter.CompQuestion)  Time elapsed: 10.659 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.ImageView[@content-desc="Review Q&A"] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.CompQuestion.test2_reviewCompreh(CompQuestion.java:79)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.ImageView[@content-desc="Review Q&A"]}
+	at readChapter.CompQuestion.test2_reviewCompreh(CompQuestion.java:79)
+
+test3_checkTestResult(readChapter.CompQuestion)  Time elapsed: 10.764 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.view.View[@content-desc=" Question 1 "] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.CompQuestion.test3_checkTestResult(CompQuestion.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc=" Question 1 "]}
+	at readChapter.CompQuestion.test3_checkTestResult(CompQuestion.java:91)
+
+test1_testChapter(readChapter.TestChapter)  Time elapsed: 10.736 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.Button[@content-desc="I don’t know"] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.TestChapter.test1_testChapter(TestChapter.java:64)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc="I don’t know"]}
+	at readChapter.TestChapter.test1_testChapter(TestChapter.java:64)
+
+test2_checkTestResult(readChapter.TestChapter)  Time elapsed: 10.659 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.view.View[@content-desc="Chapter1 Completed"] (tried for 10 second(s) with 500 milliseconds interval)
+	at readChapter.TestChapter.test2_checkTestResult(TestChapter.java:75)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="Chapter1 Completed"]}
+	at readChapter.TestChapter.test2_checkTestResult(TestChapter.java:75)
+
+test1_closeTip(signin.flashCard)  Time elapsed: 10.712 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.ImageView[@index='1'] (tried for 10 second(s) with 500 milliseconds interval)
+	at signin.flashCard.test1_closeTip(flashCard.java:53)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.ImageView[@index='1']}
+	at signin.flashCard.test1_closeTip(flashCard.java:53)
+
+test2_practice(signin.flashCard)  Time elapsed: 10.788 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.Button[@content-desc="Practice"] (tried for 10 second(s) with 500 milliseconds interval)
+	at signin.flashCard.test2_practice(flashCard.java:66)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc="Practice"]}
+	at signin.flashCard.test2_practice(flashCard.java:66)
+
+test3_FlashCard(signin.flashCard)  Time elapsed: 10.734 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.ImageView[@content-desc="Flash Cards"] (tried for 10 second(s) with 500 milliseconds interval)
+	at signin.flashCard.test3_FlashCard(flashCard.java:74)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.ImageView[@content-desc="Flash Cards"]}
+	at signin.flashCard.test3_FlashCard(flashCard.java:74)
+
+test4_startFlashCard(signin.flashCard)  Time elapsed: 1.216 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=(//android.widget.Button[@content-desc="Show answer"])[1]}
+	at signin.flashCard.test4_startFlashCard(flashCard.java:82)
+
+test5_startFlashCard(signin.flashCard)  Time elapsed: 0.022 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc="Move all to know"]}
+	at signin.flashCard.test5_startFlashCard(flashCard.java:110)
+
+test6_result_flashCard(signin.flashCard)  Time elapsed: 0.016 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3N0NFMK', ip: '192.168.23.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, databaseEnabled: false, desired: {appActivity: com.ryanheise.audioservice...., appPackage: sa.app.iStoria.dev, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: M2101K7AG, deviceName: 3753c763, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 3753c763, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 93, takesScreenshot: true, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 452eb029-0efe-4a2b-93f4-fcc47d8c383e
+*** Element info: {Using=xpath, value=//android.view.View[@index='1']}
+	at signin.flashCard.test6_result_flashCard(flashCard.java:119)
+

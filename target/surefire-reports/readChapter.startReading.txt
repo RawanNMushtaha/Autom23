@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: readChapter.startReading
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.646 sec <<< FAILURE! - in readChapter.startReading
+test1_startReadChapter(readChapter.startReading)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NullPointerException
+	at readChapter.startReading.test1_startReadChapter(startReading.java:62)
+
+test2_startReading(readChapter.startReading)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at readChapter.startReading.test2_startReading(startReading.java:99)
+
+test3_scroll(readChapter.startReading)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at readChapter.startReading.test3_scroll(startReading.java:107)
+
